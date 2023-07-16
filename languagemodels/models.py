@@ -6,7 +6,7 @@ import ctranslate2
 
 
 modelcache = {}
-max_ram = None
+max_ram = 512
 license_match = os.environ.get("LANGUAGEMODELS_MODEL_LICENSE")
 
 # Model list
